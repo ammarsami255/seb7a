@@ -51,3 +51,20 @@ body {
 .button-1:focus {
     background-color: #F082AC;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .cont {
+        padding: 10px;
+    }
+
+    .button-1 {
+        height: 100px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    #counter {
+        font-size: 40px;
+    }
+}
