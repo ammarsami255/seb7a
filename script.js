@@ -5,7 +5,7 @@ let clickCount = 0;
             document.getElementById('counter').innerText = clickCount;
         }
 
-        function reset() 
-        clickCount=0;
-            document.getElementById('counter').innerText = 0;
+        function reset() {
+            clickCount = 0;
+            document.getElementById('counter').innerText = clickCount;
         }
