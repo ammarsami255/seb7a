@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -13,11 +14,19 @@ body {
 
 .cont {
     text-align: center;
-    color: #000000;
     background-color: #e9e8e8;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cont2 {
+    text-align: center;
+    background-color: #e9e8e8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px; /* Add space between .cont1 and .cont2 */
 }
 
 .button-1 {
@@ -42,14 +51,38 @@ body {
     text-decoration: none;
     transition: background-color 100ms;
     vertical-align: baseline;
-
 }
-
-
+.button-2 {
+    background-color: #EA4C89;
+    border-radius: 15px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100px;
+    width: 100px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 100ms;
+    vertical-align: baseline;
+}
 
 @media only screen and (max-width: 600px) {
     .cont {
         padding: 10px;
+    }
+
+    .cont2 {
+        margin-top: 10px; /* Adjust space between .cont1 and .cont2 for small screens */
     }
 
     .button-1 {
